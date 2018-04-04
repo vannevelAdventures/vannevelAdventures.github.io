@@ -26,6 +26,7 @@ markdown: kramdown
 theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
+remote_theme: mmistakes/jekyll-theme-basically-basic
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
