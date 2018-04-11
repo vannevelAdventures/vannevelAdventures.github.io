@@ -39,3 +39,13 @@ remote_theme: mmistakes/jekyll-theme-basically-basic
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+read_time: true
